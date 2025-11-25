@@ -1,0 +1,70 @@
+# Projeto Java - Sistema Bancário e Exercícios de Lógica
+
+Este projeto em Java é composto por várias classes que simulam um **sistema bancário** e resolvem **exercícios lógicos simples**. O projeto inclui as classes **`ContaBancaria`**, **`ImparOuPar`**, **`MaiorNumero`** e **`Pessoa`**, cada uma com responsabilidades específicas.
+
+## Estrutura do Projeto
+
+### 1. **Classe `ContaBancaria`**
+
+A classe **`ContaBancaria`** simula uma conta bancária com **operações financeiras** básicas. Ela permite realizar:
+
+- **Depósito**: Adiciona valores ao saldo da conta.
+- **Saque**: Permite retirar valores da conta, verificando se o saldo é suficiente para o saque.
+- **Consulta de Saldo**: Exibe o saldo atual da conta.
+
+A principal função dessa classe é **gerenciar o saldo da conta** e realizar as operações de depósito e saque, além de garantir que não seja possível **sacar mais do que o saldo disponível**.
+
+### 2. **Classe `ImparOuPar`**
+
+A classe **`ImparOuPar`** recebe um número como entrada do usuário e determina se ele é **par ou ímpar**. O funcionamento é simples:
+
+- A classe solicita ao usuário que digite um número.
+- Em seguida, ela **verifica se o número é divisível por 2** (par) ou não (ímpar) e exibe o resultado.
+
+Essa classe é útil para **verificar a paridade de um número** de forma simples e interativa.
+
+### 3. **Classe `MaiorNumero`**
+
+A classe **`MaiorNumero`** lê **5 números** fornecidos pelo usuário e determina qual é o **maior** número entre eles. O processo é o seguinte:
+
+- A classe solicita ao usuário que digite 5 números.
+- Ela **compara os números** entre si e exibe o maior valor.
+
+Esse exercício é uma forma simples de **encontrar o maior número** entre uma lista de valores.
+
+### 4. **Classe `Pessoa`**
+
+A classe **`Pessoa`** é usada para representar uma pessoa, com os atributos **nome** e **idade**. Ela tem dois principais métodos:
+
+- **Apresentar**: Exibe o nome e a idade da pessoa.
+- **Aniversariar**: Incrementa a idade da pessoa em 1, simulando um **aniversário** e exibindo a nova idade.
+
+Essa classe é útil para simular o comportamento de uma pessoa, **apresentar seus dados** e **atualizar sua idade** a cada aniversário.
+
+## Funcionalidades do Sistema
+
+### **Depósito e Saque Bancário**
+O sistema bancário simula operações de **depósito** e **saque**. O **depósito** adiciona dinheiro à conta, enquanto o **saque** retira valores da conta, mas apenas se houver **dinheiro suficiente** no saldo.
+
+### **Verificação de Paridade**
+A classe **`ImparOuPar`** permite que o usuário verifique se um número é **par ou ímpar**, utilizando um simples critério matemático.
+
+### **Encontre o Maior Número**
+O exercício de encontrar o **maior número** entre 5 fornecidos pelo usuário é realizado pela classe **`MaiorNumero`**. A classe compara os números e retorna o maior valor.
+
+### **Simulação de Pessoa**
+A classe **`Pessoa`** é usada para **apresentar uma pessoa** com seu nome e idade, além de permitir a atualização da idade ao simular o **aniversário** da pessoa.
+
+## Como Rodar o Projeto
+
+1. Clone este repositório.
+2. Compile os arquivos `.java` utilizando o comando:
+
+   ```bash
+   javac Main.java
+
+Execute o programa com:
+
+java Main
+
+Esse projeto foi desenvolvido como um exercício de lógica de programação e gerenciamento de dados simples em Java. Ele abrange conceitos como entrada e saída de dados, estruturas condicionais e interação com o usuário. Através dele, conseguimos praticar operações básicas como depositar, sacar e consultar o saldo de uma conta bancária, além de resolver problemas como identificação de número par/ímpar e encontrar o maior número.
